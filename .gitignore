@@ -1,0 +1,118 @@
+# ===================
+# Environment & Secrets (CRITICAL - .env is here)
+# ===================
+.env
+*.env
+.env.local
+.env.*.local
+
+# ===================
+# MATLAB / Simulink
+# ===================
+*.mat
+*.slx.autosave
+*.asv
+*.m~
+slprj/
+simulink_cache/
+codegen/
+*.p
+*.mex*
+*.prj
+*.rpt
+*.slxc
+SimulinkOutput/
+matlab_crash_dump.*
+*.state
+
+# ===================
+# Python
+# ===================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===================
+# STM32 / Embedded
+# ===================
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.su
+Debug/
+Release/
+*.crf
+*.dep
+*.htm
+*.lnp
+*.axf
+*.sct
+*.tmp
+*.launch
+*.swp
+*/.DS_Store
+*.orig
+*.bak
+*.log
+
+# ===================
+# IDE / Editor
+# ===================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===================
+# Build artifacts
+# ===================
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# ===================
+# Data files (large)
+# ===================
+*.h5
+*.hdf5
+*.npz
+*.parquet
+*.feather
+
+# ===================
+# Temporary files
+# ===================
+*.tmp
+*.temp
+*.cache
+*.bak
+*.backup

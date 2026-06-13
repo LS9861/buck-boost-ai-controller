@@ -1,0 +1,27 @@
+# Core dependencies for Python simulation and API tuning
+numpy>=1.21.0
+matplotlib>=3.5.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# API client for DeepSeek
+openai>=1.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# CAN bus (for hardware integration)
+python-can>=4.0.0
+pyserial>=3.5
+
+# Data logging and visualization
+plotly>=5.10.0
+seaborn>=0.11.0
+
+# For reading MATLAB .mat files
+h5py>=3.6.0
+scipy>=1.7.0
+
+# Optional: Interactive notebooks
+jupyter>=1.0.0
+ipywidgets>=7.7.0
