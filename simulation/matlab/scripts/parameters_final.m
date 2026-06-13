@@ -38,6 +38,9 @@ Ron= 0.01;
 duty_min = 0.05;        % Minimum duty cycle
 duty_max = 0.95;        % Maximum duty cycle
 
+%% Control parameter
+Kp = 0.0012;
+Ki = 0.25;
 %% Display Configuration
 fprintf('\n=== PARAMETERS LOADED ===\n');
 fprintf('Vin = %.1f V\n', Vin);
