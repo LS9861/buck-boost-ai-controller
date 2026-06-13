@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Buck-Boost Converter with AI Controllers
 ## 🏆 Key Achievement
 
@@ -60,8 +61,8 @@ buck-boost-ai-controller/
 | API-Tuned | 5% | 5ms | ✅ |
 
 ### Videos
-- [Simulation Demo](https://youtube.com/...)
-- [Hardware Demo](https://youtube.com/...)
+- [Simulation Demo]https://www.youtube.com/@loken820524
+- [Hardware Demo]https://www.youtube.com/@loken820524
 
 ### License
 MIT - See LICENSE file
@@ -70,5 +71,9 @@ MIT - See LICENSE file
 [Your Name]
 
 ### Connect
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [YouTube](https://youtube.com/@yourchannel)
+- [LinkedIn]https://www.linkedin.com/in/lokendra-samba-085178156/
+- [YouTube]https://www.youtube.com/@loken820524
+=======
+# buck-boost-ai-controller
+Non-inverting buck-boost converter simulation in MATLAB/Simulink with characterization data, mode selector logic, and preparation for PID, Fuzzy, and Neural Network controllers. Features AI-assisted gain tuning using DeepSeek API.
+>>>>>>> baf0f020e07ce0148b789ed20acb89709435fa91
