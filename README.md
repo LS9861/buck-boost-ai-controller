@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Buck-Boost Converter with AI Controllers
 ## 🏆 Key Achievement
 
