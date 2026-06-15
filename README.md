@@ -60,6 +60,25 @@ buck-boost-ai-controller/
 | Neural Network | 4% | 4.5ms | ✅ |
 | API-Tuned | 5% | 5ms | ✅ |
 
+## 🔬 Latest: PI vs Fuzzy-PI Hybrid Comparison
+
+**Bottom line:** Fuzzy-PI settles **6.8x faster** (22ms vs 149ms) but has **68% more overshoot**.
+
+## 📊 Latest: PI vs Fuzzy-PI Hybrid
+
+📁 **Results**: [Full comparison](results/PI_vs_FuzzyPI_comparison.md)  
+🖼️ **Figure**: ![Step Response](results/figures/...)
+
+| Metric | PI | Fuzzy-PI | 
+|--------|-----|----------|
+| ⚡ Settling Time | 149ms | **22ms** ✅ |
+| 📈 Overshoot | **118%** ✅ | 199% |
+| 🎯 SS Error | **0.015V** ✅ | 0.025V |
+
+**📊 Verdict:** Fuzzy-PI wins **4 out of 7 metrics** – Best for dynamic response applications.
+
+📁 **[Full 7-metric comparison](results/pi_vs_fuzzypi_comparison.md)**
+
 ### Videos
 - [Simulation Demo]https://www.youtube.com/@loken820524
 - [Hardware Demo]https://www.youtube.com/@loken820524
@@ -76,4 +95,3 @@ MIT - See LICENSE file
 =======
 # buck-boost-ai-controller
 Non-inverting buck-boost converter simulation in MATLAB/Simulink with characterization data, mode selector logic, and preparation for PID, Fuzzy, and Neural Network controllers. Features AI-assisted gain tuning using DeepSeek API.
->>>>>>> baf0f020e07ce0148b789ed20acb89709435fa91
