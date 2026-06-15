@@ -3,7 +3,8 @@
 % MATLAB 2018a Compatible
 % ============================================
 
-clear all; close all; clc;
+clear; close all; clc;
+%open("gain_scheduler.fis");
 
 %% parameters_final.m
 % Your Working Parameters for Buck-Boost Converter
@@ -14,7 +15,8 @@ T_maxStep=1e-6;  % Max step size
 T_RelTol=1e-4;  % Relative tolerance
 T_AbsTol=1e-6;  % Relative tolerance
 % descrete
-T_sample = 1e-7; % Sampling time
+T_sample = 1e-5; % Sampling time
+T_ZoH = 1e-4; 
 %% Power Stage
 Vin = 12;               % Input voltage (V) - Fixed
 L = 330e-6;             % Inductance (330 µH)
